@@ -1,12 +1,15 @@
 # Omics Skills
 
-This repository is a curated skill library for omics and computational biology workflows.
+Omics Skills is a GitHub repository of reusable skills for bioinformatics, omics analysis, and computational biology.
 
-It is designed to be portable:
+It is organized around real analysis tasks rather than isolated tools, so the library is easier to browse, reuse, and adapt for AI agents or human-curated workflow systems.
 
-- no local absolute paths
-- no dependence on sibling source repositories
-- no assumption that upstream source collections are present at runtime
+## What You Will Find Here
+
+- task-focused skills for common omics workflows
+- a taxonomy that groups skills by major analysis domain
+- deeper references for high-value workflows such as ChIP-seq, ATAC-seq, differential expression, metagenomics, proteomics, structural biology, and single-cell analysis
+- a foundation for building smaller runtime packs for agent systems such as BioClaw
 
 ## Structure
 
@@ -26,21 +29,32 @@ omics-skills/
 └── .github/workflows/
 ```
 
-## Positioning
+## Major Domains
 
-This repo is best described as:
+- Transcriptomics
+- Single-cell and spatial
+- Epigenomics and regulation
+- Genomics and variation
+- Metagenomics and microbiome
+- Proteomics and metabolomics
+- Multi-omics and systems biology
+- Core bioinformatics
 
-> A curated omics skill library for AI coding agents and computational biology workflows.
+## What Makes This Repository Useful
 
-## Design Rules
+- It reduces duplication across many small skill collections by consolidating them into a clearer omics taxonomy.
+- It keeps high-level categories compact while still allowing specialized leaf skills.
+- It is suitable both as a standalone public skill library and as a source repository for downstream agent packs.
 
-- keep top-level categories small and legible
-- group by user-facing workflow, not by every package name
-- keep leaf skills actionable and environment-agnostic
-- treat package- or database-specific details as optional supplements
+## How To Use It
 
-## Recommended Usage
+- Browse `skills/` when you want a workflow-oriented entry point.
+- Use `catalog/` when you want the compact taxonomy and source mapping.
+- Reuse individual leaf skills directly, or curate a smaller subset for a production agent environment.
 
-- Use the `skills/` tree as the main public skill library.
-- Use `catalog/` as the compact map for curation and routing.
-- If integrating into BioClaw, expose only a smaller runtime subset rather than every leaf skill.
+## Design Principles
+
+- Group skills by user-facing analysis goals, not just package names.
+- Keep leaf skills actionable and easy to route.
+- Separate broad workflow guidance from deeper technical references.
+- Make it easy to derive a smaller, high-signal runtime pack from a larger public library.
