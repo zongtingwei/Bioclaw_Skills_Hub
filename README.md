@@ -1,10 +1,34 @@
+<div align="center">
+
 # Omics Skills
+
+### A Curated Skill Library for Bioinformatics and Omics Workflows
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Omics Skills is a GitHub repository of reusable skills for bioinformatics, omics analysis, and computational biology.
+**Omics Skills** is a public collection of reusable skills for bioinformatics, omics analysis, and computational biology.
 
-It is organized around real analysis tasks rather than isolated tools, so the library is easier to browse, reuse, and adapt for AI agents or human-curated workflow systems.
+It is organized around real analysis tasks rather than isolated tools, making it easier to browse, reuse, and adapt for AI agents, workflow systems, and research assistants.
+
+</div>
+
+## Contents
+
+- [Overview](#overview)
+- [What You Will Find Here](#what-you-will-find-here)
+- [Repository Structure](#repository-structure)
+- [Major Domains](#major-domains)
+- [What Makes This Repository Useful](#what-makes-this-repository-useful)
+- [Project Status](#project-status)
+- [How To Use It](#how-to-use-it)
+- [Design Principles](#design-principles)
+- [License](#license)
+
+## Overview
+
+Bioinformatics workflows are often scattered across many small prompt collections, tool-specific notes, and one-off agent instructions.
+
+**Omics Skills** brings those patterns together into a more consistent repository structure. The goal is to provide a skill library that is easier to curate, easier to route, and easier to reuse across different omics settings, including transcriptomics, single-cell analysis, epigenomics, metagenomics, proteomics, structural biology, and general bioinformatics.
 
 ## What You Will Find Here
 
@@ -13,7 +37,7 @@ It is organized around real analysis tasks rather than isolated tools, so the li
 - deeper references for high-value workflows such as ChIP-seq, ATAC-seq, differential expression, metagenomics, proteomics, structural biology, and single-cell analysis
 - a foundation for building smaller runtime packs for agent systems such as BioClaw
 
-## Structure
+## Repository Structure
 
 ```text
 omics-skills/
