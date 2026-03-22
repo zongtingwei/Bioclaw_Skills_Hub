@@ -1,5 +1,7 @@
 # Omics Skills
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 Omics Skills is a GitHub repository of reusable skills for bioinformatics, omics analysis, and computational biology.
 
 It is organized around real analysis tasks rather than isolated tools, so the library is easier to browse, reuse, and adapt for AI agents or human-curated workflow systems.
@@ -64,3 +66,7 @@ If you find it useful, consider giving the project a star.
 - Keep leaf skills actionable and easy to route.
 - Separate broad workflow guidance from deeper technical references.
 - Make it easy to derive a smaller, high-signal runtime pack from a larger public library.
+
+## License
+
+This project is released under the [MIT License](LICENSE).
