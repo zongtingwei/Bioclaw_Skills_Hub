@@ -82,7 +82,7 @@ If you find it useful, consider giving the project a star.
 
 ## Acknowledgements
 
-This repository is inspired by earlier skill collections including [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills), [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills), and [bioSkills](https://github.com/GPTomics/bioSkills).
+This repository is inspired by earlier skill collections including [claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills), [OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills), [claude-for-life-sciences-skills](https://www.anthropic.com/news/claude-for-life-sciences) and [bioSkills](https://github.com/GPTomics/bioSkills).
 
 The current project reorganizes and refines those ideas into a more unified omics-oriented library structure.
 
