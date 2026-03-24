@@ -54,7 +54,7 @@ Claude will automatically use the right skills (BoltzGen → Chai → QC).
 
 ## Credits
 
-Built on an earlier protein-design skill foundation and substantially revised
+Built on an earlier protein-design skill foundation “adaptyvbio/protein-design-skills” and substantially revised
 for BioClaw with renamed skills, new templates, scripts, docs, and workflow
 structure.
 
