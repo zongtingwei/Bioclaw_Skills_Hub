@@ -28,7 +28,7 @@
 
 生物信息学工作流往往分散在大量零散的提示词集合、工具专项笔记和一次性智能体指令中。
 
-**Omics Skills** 将这些模式整合到一个结构更为一致的仓库中。项目目标是提供一个更易于维护、路由和复用的技能库，覆盖多种组学场景，包括转录组学、单细胞分析、表观基因组学、宏基因组学、蛋白质组学、结构生物学及通用生物信息学。
+**Bioclaw_Skills_Hub** 将这些模式整合到一个结构更为一致的仓库中。项目目标是提供一个更易于维护、路由和复用的技能库，覆盖多种组学场景，包括转录组学、单细胞分析、表观基因组学、宏基因组学、蛋白质组学、结构生物学及通用生物信息学。
 
 ## 库中内容
 
@@ -40,7 +40,7 @@
 ## 仓库结构
 
 ```text
-omics-skills/
+Bioclaw_Skills_Hub/
 ├── skills/
 │   ├── transcriptomics/                # 转录组学
 │   ├── single-cell-and-spatial/        # 单细胞与空间组学
@@ -49,7 +49,8 @@ omics-skills/
 │   ├── metagenomics-and-microbiome/    # 宏基因组学与微生物组
 │   ├── proteomics-and-metabolomics/    # 蛋白质组学与代谢组学
 │   ├── multi-omics-and-systems/        # 多组学与系统生物学
-│   └── core-bioinformatics/            # 核心生物信息学
+│   ├── core-bioinformatics/            # 核心生物信息学
+│   └── .../
 ├── catalog/
 ├── scripts/
 └── .github/workflows/
