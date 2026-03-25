@@ -53,7 +53,7 @@ Bioclaw_Skills_Hub/
 │   ├── proteomics-and-metabolomics/
 │   ├── multi-omics-and-systems/
 │   ├── core-bioinformatics/
-│   └── ...
+│   └── .../
 ├── catalog/
 ├── scripts/
 └── .github/workflows/
