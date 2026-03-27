@@ -97,7 +97,7 @@ Bioclaw_Skills_Hub/
 当你修改 `skills/` 下的内容时，推送前先运行本地测试：
 
 ```bash
-python3 _bioclaw_test/run_tests.py
+python _bioclaw_test/run_tests.py
 ```
 
 只有在测试通过后再推送 skills 改动。这个测试会检查 taxonomy 一致性、Markdown 链接、绝对文件系统路径，以及必需的 reference 文件。
