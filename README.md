@@ -100,7 +100,7 @@ The current project reorganizes and refines those ideas into a more unified omic
 Before pushing changes to `skills/`, run the local test pipeline:
 
 ```bash
-python3 _bioclaw_test/run_tests.py
+python _bioclaw_test/run_tests.py
 ```
 
 Only push skill updates after this test passes. It checks taxonomy consistency, markdown links, absolute filesystem paths, and required reference files.
