@@ -81,7 +81,7 @@ Bioclaw_Skills_Hub/
 
 This repository will continue to be iterated and expanded over time.
 
-If you find it useful, consider giving the project a star.
+If you find it useful, consider giving the project a star ⭐.
 
 ## Acknowledgements
 
